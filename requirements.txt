@@ -1,0 +1,15 @@
+matplotlib==3.3.3
+numpy==1.19.4
+plyfile
+nibabel==3.2.1
+tqdm==4.38.0
+open3d==0.10.0.0
+easydict==1.9
+scipy==1.5.4
+coloredlogs==15.0
+h5py==3.1.0
+GitPython==3.1.13
+PyYAML==5.4.1
+scikit_learn==0.24.1
+tensorboardX==2.1
+vtk_visualizer==0.9.6
