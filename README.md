@@ -10,9 +10,10 @@ Follow the predator to install the corresponding Python library:
 ## Data
 Check the offical [3DMatch](https://3dmatch.cs.princeton.edu/) webiste to download the full rgb-d data.
 
-1.utlize Superglue for generating explicit 2d correspondences:
+## utlize Superglue for generating explicit 2d correspondences:
 [Superglue](https://github.com/magicleap/SuperGluePretrainedNetwork)
-
+In our paper,we use two imgs and we choose the first and last image of 50 images(Each 3DMatch point cloud is fused by 50 frames of images)
+Generate the 2d matches npz for train/val/test dataset.
 ### Dump 2d Matches 
 
 The simplest usage of this script will process the image pairs listed in a given text file and dump the keypoints and matches to compressed numpy `npz` files. We provide the challenging ScanNet pairs from the main paper in `assets/example_indoor_pairs/`. Running the following will run SuperPoint + SuperGlue on each image pair, and dump the results to `dump_match_pairs/`:
