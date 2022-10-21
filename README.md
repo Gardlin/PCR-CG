@@ -1,2 +1,69 @@
 # PCR-CG
-PCR-CG: Point Cloud Registration via Color and Geometry
+
+This repository represents the official implementation of the paper:PCR-CG: Point Cloud Registration via Color and Geometry
+
+## Introduction 
+The code is build upon 
+Follow the predator to install the corresponding Python library:
+[predator](https://github.com/prs-eth/OverlapPredator)
+
+## Data
+Check the offical [3DMatch](https://3dmatch.cs.princeton.edu/) webiste to download the full rgb-d data.
+
+1.utlize Superglue for generating explicit 2d correspondences:
+[Superglue](https://github.com/magicleap/SuperGluePretrainedNetwork)
+
+### Dump 2d Matches 
+
+The simplest usage of this script will process the image pairs listed in a given text file and dump the keypoints and matches to compressed numpy `npz` files. We provide the challenging ScanNet pairs from the main paper in `assets/example_indoor_pairs/`. Running the following will run SuperPoint + SuperGlue on each image pair, and dump the results to `dump_match_pairs/`:
+```sh
+./match_pairs.py
+```
+
+The resulting `.npz` files can be read from Python as follows:
+
+```python
+>>> import numpy as np
+>>> path = 'dump_match_pairs/scene0711_00_frame-001680_scene0711_00_frame-001995_matches.npz'
+>>> npz = np.load(path)
+>>> npz.files
+['keypoints0', 'keypoints1', 'matches', 'match_confidence']
+>>> npz['keypoints0'].shape
+(382, 2)
+>>> npz['keypoints1'].shape
+(391, 2)
+>>> npz['matches'].shape
+(382,)
+>>> np.sum(npz['matches']>-1)
+115
+>>> npz['match_confidence'].shape
+(382,)
+our preprocessed data will be uploaded in few days.
+
+### 3DLoMatch and 3DMatch(Indoor)
+#### Train
+After creating the virtual environment and downloading the datasets, Predator can be trained using:
+```shell
+python main.py configs/train/indoor.yaml
+```
+modify the img_path and dataset path in configs/train/indoor.yaml
+
+#### Evaluate
+```shell
+python main.py configs/test/indoor.yaml
+```
+Then using RANSAC to get the estimated transformation:
+modify the source_path and res_path
+```shell
+sh run_ransac.sh
+```
+
+## [GeoTransformer](https://github.com/qinzheng93/GeoTransformer) backbone: Geotransformer code will be updated in few days
+We evaluate our method on  GeoTransformer on the standard 3DMatch/3DLoMatch benchmarks as in [PREDATOR](https://arxiv.org/abs/2011.13005).
+
+|      Methods          | Benchmark   |  RR   |
+| :--------       | :---:       |    :---: | 
+|GeoTransformer-lgr| 3DMatch     | 91.5  |
+|GeoTransformer-lgr| 3DLoMatch   | 74.0 |
+|GeoTransformer-ours-lgr| 3DMatch     | 92.5  |
+|GeoTransformer-ours-lgr| 3DLoMatch   | 76.4 |
