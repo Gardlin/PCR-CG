@@ -3,13 +3,13 @@
 This repository represents the official implementation of the paper:PCR-CG: Point Cloud Registration via Color and Geometry
 
 ## Introduction 
-The code is build upon [predator](https://github.com/prs-eth/OverlapPredator)
+The code is build upon [predator](https://github.com/prs-eth/OverlapPredator).
 Follow the predator to install the corresponding Python library:
 
 
 ## Data
 Check the offical [3DMatch](https://3dmatch.cs.princeton.edu/) webiste to download the full rgb-d data.
-Follow the [Pri3d](https://github.com/Sekunde/Pri3D) to download the well pretrained 2d backbone. Or direct the the image-net pretrained model,you can get a 
+Follow the [Pri3d](https://github.com/Sekunde/Pri3D) to download the well pretrained 2d backbone. Or use the the image-net pretrained model direcctly,you can get a 
 near result.
 ## utlize Superglue for generating explicit 2d correspondences:
 [Superglue](https://github.com/magicleap/SuperGluePretrainedNetwork) offical repository
