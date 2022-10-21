@@ -63,7 +63,7 @@ sh run_ransac.sh
 ```
 
 ## [GeoTransformer](https://github.com/qinzheng93/GeoTransformer) backbone: Geotransformer code will be updated in few days
-We evaluate our method on  GeoTransformer on the standard 3DMatch/3DLoMatch benchmarks as in [PREDATOR](https://arxiv.org/abs/2011.13005).
+We evaluate our method on  GeoTransformer backbone on the standard 3DMatch/3DLoMatch benchmarks.
 
 |      Methods          | Benchmark   |  RR   |
 | :--------       | :---:       |    :---: | 
