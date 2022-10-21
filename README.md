@@ -3,9 +3,9 @@
 This repository represents the official implementation of the paper:PCR-CG: Point Cloud Registration via Color and Geometry
 
 ## Introduction 
-The code is build upon 
+The code is build upon [predator](https://github.com/prs-eth/OverlapPredator)
 Follow the predator to install the corresponding Python library:
-[predator](https://github.com/prs-eth/OverlapPredator)
+
 
 ## Data
 Check the offical [3DMatch](https://3dmatch.cs.princeton.edu/) webiste to download the full rgb-d data.
