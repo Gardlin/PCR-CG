@@ -11,7 +11,8 @@ Follow the predator to install the corresponding Python library:
 Check the offical [3DMatch](https://3dmatch.cs.princeton.edu/) webiste to download the full rgb-d data.
 
 ## utlize Superglue for generating explicit 2d correspondences:
-[Superglue](https://github.com/magicleap/SuperGluePretrainedNetwork)
+[Superglue](https://github.com/magicleap/SuperGluePretrainedNetwork) offical repository
+
 In our paper,we use two imgs and we choose the first and last image of 50 images(Each 3DMatch point cloud is fused by 50 frames of images).
 
 Generate the 2d matches npz for train/val/test dataset.
