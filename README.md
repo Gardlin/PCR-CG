@@ -9,7 +9,8 @@ Follow the predator to install the corresponding Python library:
 
 ## Data
 Check the offical [3DMatch](https://3dmatch.cs.princeton.edu/) webiste to download the full rgb-d data.
-
+Follow the [Pri3d](https://github.com/Sekunde/Pri3D) to download the well pretrained 2d backbone. Or direct the the image-net pretrained model,you can get a 
+near result.
 ## utlize Superglue for generating explicit 2d correspondences:
 [Superglue](https://github.com/magicleap/SuperGluePretrainedNetwork) offical repository
 
