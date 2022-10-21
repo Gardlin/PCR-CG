@@ -62,7 +62,7 @@ modify the source_path and res_path
 sh run_ransac.sh
 ```
 
-## [GeoTransformer](https://github.com/qinzheng93/GeoTransformer) backbone: Geotransformer code will be updated in few days
+## [GeoTransformer](https://github.com/qinzheng93/GeoTransformer) backbone: code will be updated in few days
 We evaluate our method on  GeoTransformer backbone on the standard 3DMatch/3DLoMatch benchmarks.
 
 |      Methods          | Benchmark   |  RR   |
