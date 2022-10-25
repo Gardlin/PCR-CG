@@ -5,6 +5,9 @@ This repository represents the official implementation of the  paper:PCR-CG: Poi
 Yu Zhang, Junle Yu, Xiaolin Huang,  Wenhui Zhou, [Ji Hou](https://sekunde.github.io/)
 
 In ECCV-2022 
+
+<img src="/assets/teaser.png" alt="teaser.png" width="90%" />
+
 ## Introduction 
 
 ### Install
