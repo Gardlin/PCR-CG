@@ -37,7 +37,7 @@ Our preprocessed data will be uploaded in few days.
 ### Pretrain
 to be released
 
-#### Train
+### Train
 After creating the virtual environment and downloading the corresponding data, PCR-CG can be trained using:
 ```shell
 python main.py configs/train/indoor.yaml
@@ -45,7 +45,7 @@ python main.py configs/train/indoor.yaml
 modify the img_path and dataset path in configs/train/indoor.yaml as yours.
 
 
-#### Evaluate
+### Evaluate
 ```shell
 python main.py configs/test/indoor.yaml
 ```
