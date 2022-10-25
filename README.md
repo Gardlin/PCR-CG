@@ -1,4 +1,4 @@
-# PCR-CG[[Paper]]( https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136700439.pdf)[[Video]](https://youtu.be/gYbgxEV9RHI)
+# PCR-CG  [[Paper]]( https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136700439.pdf)[[Video]](https://youtu.be/gYbgxEV9RHI)
 
 This repository represents the official implementation of the  paper:PCR-CG: Point Cloud Registration via Color and Geometry.
 
