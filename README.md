@@ -1,10 +1,10 @@
-# PCR-CG
+# PCR-CG[[Paper]]( https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136700439.pdf)[[Video]](https://youtu.be/gYbgxEV9RHI)
 
-This repository represents the official implementation of the  paper:PCR-CG: Point Cloud Registration via Color and Geometry.[PCR-CG paper]( https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136700439.pdf)
+This repository represents the official implementation of the  paper:PCR-CG: Point Cloud Registration via Color and Geometry.
 
 Yu Zhang, Junle Yu, Xiaolin Huang,  Wenhui Zhou, [Ji Hou](https://sekunde.github.io/)
 
-In ECCV-2022 [video](https://youtu.be/gYbgxEV9RHI)
+In ECCV-2022 
 ## Introduction 
 
 ### Install
