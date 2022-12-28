@@ -16,6 +16,15 @@ Follow the predator to install the corresponding Python library:
 
 
 ### Data:3DLoMatch and 3DMatch(Indoor)
+#### Download our preprocessed data
+ [BaiduNetDisk](https://pan.baidu.com/s/1y65tppzidAH-zvNgzS-A_A)
+ 
+Password：axvz
+
+RGB-D DATA: unzip all the 3dmatch-image.rar files into one directory and change the target image path. The full RGB-D DATA occupies 130+ GB, thus we pick 5 frames from 50 frames evenly and upload this file.
+
+SuperGlue preprocessed data: unzip the dump-match-pairs-160.zip file.
+
 #### RGBD DATA
 Check the offical [3DMatch](https://3dmatch.cs.princeton.edu/) webiste to download the full rgb-d data.Our preprocess data will be uploaded in few days.
 Follow the [Pri3d](https://github.com/Sekunde/Pri3D) to download the well pretrained 2d backbone. Or use the the image-net pretrained model direcctly,you can get a 
