@@ -71,8 +71,8 @@ We evaluate our method on  GeoTransformer backbone on the standard 3DMatch/3DLoM
 | :--------       | :---:       |    :---: | 
 |GeoTransformer-lgr| 3DMatch     | 91.5  |
 |GeoTransformer-lgr| 3DLoMatch   | 74.0 |
-|GeoTransformer-ours-lgr| 3DMatch     | 92.5  |
-|GeoTransformer-ours-lgr| 3DLoMatch   | 76.4 |
+|GeoTransformer-ours-lgr| 3DMatch     | 92.2  |
+|GeoTransformer-ours-lgr| 3DLoMatch   | 77.4 |
 
 ### Citation
 If you find our work helpful, please consider citing
