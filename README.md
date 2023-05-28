@@ -36,9 +36,9 @@ In our paper,we use two imgs and we choose the first and last image of 50 images
 
 Generate the 2d matches npz for train/val/test dataset.
 
-Prepocee all the image pairs in text file and dump the keypoints and matches to compressed numpy `npz` files. 
-```sh
-./match_pairs.py
+Prepocee all the image pairs in text file and dump the keypoints and matches to compressed numpy `npz` files.  Follow Superglue to dump the images pairs using 'match_pairs.py'
+```
+python  match_pairs.py
 ```
 
 
