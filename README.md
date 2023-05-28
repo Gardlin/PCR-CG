@@ -41,10 +41,7 @@ Prepocee all the image pairs in text file and dump the keypoints and matches to 
 ./match_pairs.py
 ```
 
-Our preprocessed data will be uploaded in few days.
 
-### Pretrain
-to be released
 
 ### Train
 After creating the virtual environment and downloading the corresponding data, PCR-CG can be trained using:
@@ -64,15 +61,7 @@ modify the source_path and res_path
 sh run_ransac.sh
 ```
 
-## [GeoTransformer](https://github.com/qinzheng93/GeoTransformer) backbone: code will be released in few days
-We also evaluate our method on  GeoTransformer backbone on the standard 3DMatch/3DLoMatch benchmarks.
 
-|      Methods          | Benchmark   |  Registration Recall   |
-| :--------       | :---:       |    :---: | 
-|GeoTransformer-lgr| 3DMatch     | 91.5  |
-|GeoTransformer-lgr| 3DLoMatch   | 74.0 |
-|GeoTransformer-ours-lgr| 3DMatch     | 92.2  |
-|GeoTransformer-ours-lgr| 3DLoMatch   | 77.4 |
 
 ### Citation
 If you find our work helpful, please consider citing
